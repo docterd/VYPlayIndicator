@@ -1,5 +1,0 @@
-framework module VYPlayIndicator {
-    header "VYPlayIndicator.h"
-    export *
-    module * { export * }
-}
