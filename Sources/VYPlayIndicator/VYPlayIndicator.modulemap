@@ -1,17 +1,5 @@
-//
-//  Header.h
-//  
-//
-//  Created by Dennis Oberhoff on 19.07.20.
-//
-
 framework module VYPlayIndicator {
-  umbrella header "VYPlayIndicator.h"
-
-  export *
-  module * { export * }
-  
-  link framework "Foundation"
-  link "c++"
-  link "z"
+    header "VYPlayIndicator.h"
+    export *
+    module * { export * }
 }
