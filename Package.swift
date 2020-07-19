@@ -18,7 +18,7 @@ let package = Package(
         .target(
             name: "VYPlayIndicator",
             cSettings: [
-                .headerSearchPath("VYPlayIndicator"),
+                .headerSearchPath("include"),
             ],
             linkerSettings: [
                 .linkedFramework("Foundation"),
