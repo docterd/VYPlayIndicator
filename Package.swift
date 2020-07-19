@@ -19,6 +19,11 @@ let package = Package(
             name: "VYPlayIndicator",
             cSettings: [
                 .headerSearchPath("VYPlayIndicator"),
+            ],
+            linkerSettings: [
+                .linkedFramework("Foundation"),
+                .linkedFramework("UIKit", .when(platforms: [.iOS, .tvOS])),
+                .linkedFramework("AppKit", .when(platforms: [.macOS])),
             ]
         ),
     ]
