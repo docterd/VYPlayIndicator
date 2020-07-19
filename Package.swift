@@ -16,7 +16,10 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "VYPlayIndicator"
+            name: "VYPlayIndicator",
+            cSettings: [
+                .headerSearchPath("VYPlayIndicator"),
+            ]
         ),
     ]
 )
